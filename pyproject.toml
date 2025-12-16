@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ucl2011-network"
+name = "ucl2011final-network"
 version = "0.1.0"
 description = "Network analysis of the UEFA Champions League 2011 final between FC Barcelona and Manchester United FC."
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT License"}
+license = "MIT License"
 authors = [
   {name = "Ravneet-Rahul Sandhu Singh", email = "rahulsandhu542001@gmail.com"},
   {name = "Sofía González Estrada", email = "sofigonzalez2012@gmail.com"},
-  {name = "Teferi Mekonnen Yitayew"}
+  {name = "Teferi Mekonnen Yitayew", email = "example@gmail.com"}
 ]
 keywords = [
   "football", "network", "fcb", "messi", "ucl2011", 
@@ -33,5 +33,5 @@ dependencies = {file = ["requirements.txt"]}
 where = ["src"] 
 
 [project.urls]
-Homepage = "https://github.com/RahulSandhu/ucl2011-network"
-Repository = "https://github.com/RahulSandhu/ucl2011-network"
+Homepage = "https://github.com/RahulSandhu/ucl2011final-network"
+Repository = "https://github.com/RahulSandhu/ucl2011final-network"

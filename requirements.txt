@@ -78,7 +78,6 @@ traitlets==5.14.3
 typeguard==4.4.4
 typing_extensions==4.15.0
 tzdata==2025.2
--e git+https://github.com/RahulSandhu/ucl2011-network@c345decef10db3bc8c0d801112083ff7b7e4dc52#egg=ucl2011_network
 ufw==0.36.2
 url-normalize==2.2.1
 urllib3==2.6.0
