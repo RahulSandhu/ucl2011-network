@@ -12,7 +12,7 @@ license = {text = "MIT License"}
 authors = [
   {name = "Ravneet-Rahul Sandhu Singh", email = "rahulsandhu542001@gmail.com"},
   {name = "Sofía González Estrada", email = "sofigonzalez2012@gmail.com"},
-  {name = "Teferi Mekonnen Yitayew", email = "example@gmail.com"}
+  {name = "Teferi Mekonnen Yitayew", email = "teferi.mekonnen@estudiants.urv.cat"}
 ]
 keywords = [
   "football", "network", "fcb", "messi", "ucl2011", 
