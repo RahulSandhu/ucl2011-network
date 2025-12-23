@@ -1,0 +1,14 @@
+player,pass_recipient,pass_count,pass_type,pass_cross,pass_switch,edge_color,team
+Abidal,Valdés,1,,False,False,#f2e691,Barcelona
+Abidal,Xavi,1,Free Kick,False,False,#f2e691,Barcelona
+Busquets,Keita,1,,False,False,#f2e691,Barcelona
+Iniesta,Abidal,1,,False,False,#f2e691,Barcelona
+Iniesta,Busquets,1,,False,False,#f2e691,Barcelona
+Keita,Iniesta,1,,False,False,#f2e691,Barcelona
+Messi,Keita,1,,False,False,#f2e691,Barcelona
+Pedro,Puyol,2,,False,False,#f2e691,Barcelona
+Puyol,Pedro,1,,False,False,#f2e691,Barcelona
+Puyol,Xavi,1,,False,False,#f2e691,Barcelona
+Valdés,Pedro,1,,False,False,#f2e691,Barcelona
+Xavi,Iniesta,2,Free Kick,False,False,#f2e691,Barcelona
+Xavi,Valdés,1,,False,False,#f2e691,Barcelona

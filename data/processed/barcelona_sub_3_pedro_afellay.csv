@@ -1,0 +1,14 @@
+player,pass_recipient,pass_count,pass_type,pass_cross,pass_switch,edge_color,team
+Afellay,Puyol,1,,False,False,#f2e691,Barcelona
+Busquets,Iniesta,1,,False,False,#f2e691,Barcelona
+Busquets,Mascherano,1,Interception,False,False,#f2e691,Barcelona
+Iniesta,Puyol,1,,False,False,#f2e691,Barcelona
+Iniesta,Xavi,1,,False,False,#f2e691,Barcelona
+Keita,Mascherano,1,,False,False,#f2e691,Barcelona
+Mascherano,Busquets,1,,False,False,#f2e691,Barcelona
+Mascherano,Keita,1,,False,False,#f2e691,Barcelona
+Messi,Afellay,1,,False,False,#f2e691,Barcelona
+Puyol,Afellay,1,,False,False,#f2e691,Barcelona
+Puyol,Xavi,1,Recovery,False,False,#f2e691,Barcelona
+Xavi,Iniesta,1,,False,False,#f2e691,Barcelona
+Xavi,Messi,1,,False,False,#f2e691,Barcelona

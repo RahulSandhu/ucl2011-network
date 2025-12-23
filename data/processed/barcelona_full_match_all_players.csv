@@ -1,0 +1,105 @@
+player,pass_recipient,pass_count,pass_type,pass_cross,pass_switch,edge_color,team
+Abidal,Busquets,7,Throw-in,False,False,#f2e691,Barcelona
+Abidal,Iniesta,15,Throw-in,False,False,#f2e691,Barcelona
+Abidal,Messi,4,Throw-in,False,False,#f2e691,Barcelona
+Abidal,Pedro,9,Throw-in,False,False,#f2e691,Barcelona
+Abidal,Piqué,6,Recovery,False,False,#f2e691,Barcelona
+Abidal,Valdés,2,,False,False,#f2e691,Barcelona
+Abidal,Xavi,12,Free Kick,False,False,#f2e691,Barcelona
+Afellay,Puyol,1,,False,False,#f2e691,Barcelona
+Busquets,Abidal,9,,False,False,#f2e691,Barcelona
+Busquets,Dani Alves,6,Recovery,False,False,#f2e691,Barcelona
+Busquets,Iniesta,18,Recovery,False,False,#f2e691,Barcelona
+Busquets,Keita,1,,False,False,#f2e691,Barcelona
+Busquets,Mascherano,5,Free Kick,False,True,#4ECDC4,Barcelona
+Busquets,Messi,14,Free Kick,False,False,#f2e691,Barcelona
+Busquets,Pedro,4,Recovery,False,False,#f2e691,Barcelona
+Busquets,Piqué,5,Recovery,False,False,#f2e691,Barcelona
+Busquets,Villa,3,,False,False,#f2e691,Barcelona
+Busquets,Xavi,13,Free Kick,False,False,#f2e691,Barcelona
+Dani Alves,Busquets,10,Recovery,False,False,#f2e691,Barcelona
+Dani Alves,Iniesta,4,,False,False,#f2e691,Barcelona
+Dani Alves,Mascherano,7,Recovery,False,False,#f2e691,Barcelona
+Dani Alves,Messi,17,Throw-in,True,False,#FF6B6B,Barcelona
+Dani Alves,Piqué,1,,False,True,#4ECDC4,Barcelona
+Dani Alves,Villa,9,Throw-in,False,False,#f2e691,Barcelona
+Dani Alves,Xavi,18,Free Kick,False,False,#f2e691,Barcelona
+Iniesta,Abidal,7,,False,False,#f2e691,Barcelona
+Iniesta,Busquets,12,Recovery,False,False,#f2e691,Barcelona
+Iniesta,Dani Alves,8,Recovery,False,True,#4ECDC4,Barcelona
+Iniesta,Mascherano,3,,False,False,#f2e691,Barcelona
+Iniesta,Messi,33,Recovery,False,False,#f2e691,Barcelona
+Iniesta,Pedro,10,,False,False,#f2e691,Barcelona
+Iniesta,Piqué,4,,False,False,#f2e691,Barcelona
+Iniesta,Puyol,1,,False,False,#f2e691,Barcelona
+Iniesta,Villa,2,,False,False,#f2e691,Barcelona
+Iniesta,Xavi,27,Free Kick,False,False,#f2e691,Barcelona
+Keita,Iniesta,1,,False,False,#f2e691,Barcelona
+Keita,Mascherano,1,,False,False,#f2e691,Barcelona
+Mascherano,Abidal,4,Recovery,False,True,#4ECDC4,Barcelona
+Mascherano,Busquets,5,Recovery,False,False,#f2e691,Barcelona
+Mascherano,Dani Alves,8,,False,False,#f2e691,Barcelona
+Mascherano,Iniesta,1,Recovery,False,False,#f2e691,Barcelona
+Mascherano,Keita,1,,False,False,#f2e691,Barcelona
+Mascherano,Messi,9,,False,False,#f2e691,Barcelona
+Mascherano,Piqué,7,Free Kick,False,False,#f2e691,Barcelona
+Mascherano,Valdés,5,Recovery,False,False,#f2e691,Barcelona
+Mascherano,Villa,3,,False,False,#f2e691,Barcelona
+Mascherano,Xavi,10,Recovery,False,False,#f2e691,Barcelona
+Messi,Abidal,1,,False,False,#f2e691,Barcelona
+Messi,Afellay,1,,False,False,#f2e691,Barcelona
+Messi,Busquets,11,Kick Off,False,False,#f2e691,Barcelona
+Messi,Dani Alves,11,,False,False,#f2e691,Barcelona
+Messi,Iniesta,26,,False,False,#f2e691,Barcelona
+Messi,Keita,1,,False,False,#f2e691,Barcelona
+Messi,Mascherano,4,,False,False,#f2e691,Barcelona
+Messi,Pedro,3,,False,False,#f2e691,Barcelona
+Messi,Piqué,2,,False,False,#f2e691,Barcelona
+Messi,Villa,4,,False,False,#f2e691,Barcelona
+Messi,Xavi,33,Corner,False,False,#f2e691,Barcelona
+Pedro,Abidal,9,,False,False,#f2e691,Barcelona
+Pedro,Busquets,4,,False,False,#f2e691,Barcelona
+Pedro,Iniesta,13,Interception,False,False,#f2e691,Barcelona
+Pedro,Mascherano,1,,False,False,#f2e691,Barcelona
+Pedro,Messi,3,,False,False,#f2e691,Barcelona
+Pedro,Puyol,2,,False,False,#f2e691,Barcelona
+Pedro,Xavi,2,,False,False,#f2e691,Barcelona
+Piqué,Abidal,6,Recovery,False,False,#f2e691,Barcelona
+Piqué,Busquets,5,Recovery,False,False,#f2e691,Barcelona
+Piqué,Dani Alves,1,,False,False,#f2e691,Barcelona
+Piqué,Iniesta,4,Recovery,False,False,#f2e691,Barcelona
+Piqué,Mascherano,4,,False,True,#4ECDC4,Barcelona
+Piqué,Messi,1,,False,False,#f2e691,Barcelona
+Piqué,Pedro,2,,False,False,#f2e691,Barcelona
+Piqué,Valdés,5,Recovery,False,False,#f2e691,Barcelona
+Piqué,Villa,1,,False,False,#f2e691,Barcelona
+Piqué,Xavi,15,Free Kick,False,False,#f2e691,Barcelona
+Puyol,Afellay,1,,False,False,#f2e691,Barcelona
+Puyol,Pedro,1,,False,False,#f2e691,Barcelona
+Puyol,Xavi,2,Recovery,False,False,#f2e691,Barcelona
+Valdés,Busquets,3,Goal Kick,False,False,#f2e691,Barcelona
+Valdés,Dani Alves,3,Goal Kick,False,True,#4ECDC4,Barcelona
+Valdés,Iniesta,1,,False,False,#f2e691,Barcelona
+Valdés,Keita,1,Goal Kick,False,False,#f2e691,Barcelona
+Valdés,Mascherano,7,Free Kick,False,False,#f2e691,Barcelona
+Valdés,Pedro,1,,False,False,#f2e691,Barcelona
+Valdés,Piqué,3,,False,False,#f2e691,Barcelona
+Valdés,Villa,1,Goal Kick,False,False,#f2e691,Barcelona
+Valdés,Xavi,2,Goal Kick,False,False,#f2e691,Barcelona
+Villa,Busquets,1,,False,False,#f2e691,Barcelona
+Villa,Dani Alves,6,,False,False,#f2e691,Barcelona
+Villa,Iniesta,3,,False,False,#f2e691,Barcelona
+Villa,Mascherano,1,,False,False,#f2e691,Barcelona
+Villa,Messi,8,Kick Off,True,False,#FF6B6B,Barcelona
+Villa,Pedro,1,,False,False,#f2e691,Barcelona
+Villa,Xavi,4,,False,False,#f2e691,Barcelona
+Xavi,Abidal,8,Recovery,False,False,#f2e691,Barcelona
+Xavi,Busquets,13,Free Kick,False,False,#f2e691,Barcelona
+Xavi,Dani Alves,23,,False,False,#f2e691,Barcelona
+Xavi,Iniesta,33,Recovery,False,False,#f2e691,Barcelona
+Xavi,Mascherano,13,,False,True,#4ECDC4,Barcelona
+Xavi,Messi,25,Corner,False,False,#f2e691,Barcelona
+Xavi,Pedro,10,Corner,True,False,#FF6B6B,Barcelona
+Xavi,Piqué,5,,False,False,#f2e691,Barcelona
+Xavi,Valdés,2,,False,False,#f2e691,Barcelona
+Xavi,Villa,12,,False,False,#f2e691,Barcelona
