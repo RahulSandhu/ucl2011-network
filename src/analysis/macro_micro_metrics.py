@@ -87,39 +87,6 @@ macro_df = pd.DataFrame(macro_results)
 
 print(macro_df.transpose())
 
-# Player image paths mapping
-player_images = {
-    # FC Barcelona
-    "Valdés": "../../images/fcb/victor_valdes.jpg",
-    "Dani Alves": "../../images/fcb/dani_alves.jpg",
-    "Piqué": "../../images/fcb/gerard_pique.jpg",
-    "Mascherano": "../../images/fcb/javier_mascherano.jpg",
-    "Abidal": "../../images/fcb/eric_abidal.jpg",
-    "Busquets": "../../images/fcb/sergio_busquets.jpg",
-    "Xavi": "../../images/fcb/xavi.jpg",
-    "Iniesta": "../../images/fcb/andres_iniesta.jpg",
-    "Pedro": "../../images/fcb/pedro.jpg",
-    "Messi": "../../images/fcb/lionel_messi.jpg",
-    "Villa": "../../images/fcb/david_villa.jpg",
-    "Puyol": "../../images/fcb/carles_puyol.jpg",
-    "Keita": "../../images/fcb/seydou_keita.jpg",
-    "Afellay": "../../images/fcb/ibrahim_afellay.jpg",
-    # Manchester United
-    "Van der Sar": "../../images/man_utd/edwin_van_der_sar.jpg",
-    "Fábio": "../../images/man_utd/fabio.jpg",
-    "Ferdinand": "../../images/man_utd/rio_ferdinand.jpg",
-    "Vidić": "../../images/man_utd/nemanja_vidic.jpg",
-    "Evra": "../../images/man_utd/patrice_evra.jpg",
-    "Valencia": "../../images/man_utd/antonio_valencia.jpg",
-    "Carrick": "../../images/man_utd/michael_carrick.jpg",
-    "Giggs": "../../images/man_utd/ryan_giggs.jpg",
-    "Park": "../../images/man_utd/jisung_park.jpg",
-    "Rooney": "../../images/man_utd/wayne_rooney.jpg",
-    "Chicharito": "../../images/man_utd/chicharito.jpg",
-    "Scholes": "../../images/man_utd/paul_scholes.jpg",
-    "Nani": "../../images/man_utd/nani.jpg",
-}
-
 # Micro-level analysis
 micro_results = []
 
