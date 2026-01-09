@@ -12,8 +12,17 @@ from matplotlib.offsetbox import AnnotationBbox, OffsetImage
 from matplotlib.patches import Circle, Rectangle
 from PIL import Image, ImageDraw
 
+# To fix GUI backend problem
+import matplotlib
+matplotlib.use("Agg")
+
+# To fix relative paths problem
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[2]
+IMAGES_DIR = ROOT / "images"
+
 # Setup data
-df = pd.read_csv("../../data/barca_manutd_2011_events.csv")
+df = pd.read_csv(ROOT / "data/barca_manutd_2011_events.csv")
 df["location"] = df["location"].apply(
     lambda x: literal_eval(str(x)) if pd.notnull(x) else None
 )
@@ -52,33 +61,33 @@ player_name_map = {
 
 # Player image paths mapping
 player_images = {
-    "Valdés": "../../images/fcb/victor_valdes.jpg",
-    "Dani Alves": "../../images/fcb/dani_alves.jpg",
-    "Piqué": "../../images/fcb/gerard_pique.jpg",
-    "Mascherano": "../../images/fcb/javier_mascherano.jpg",
-    "Abidal": "../../images/fcb/eric_abidal.jpg",
-    "Busquets": "../../images/fcb/sergio_busquets.jpg",
-    "Xavi": "../../images/fcb/xavi.jpg",
-    "Iniesta": "../../images/fcb/andres_iniesta.jpg",
-    "Pedro": "../../images/fcb/pedro.jpg",
-    "Messi": "../../images/fcb/lionel_messi.jpg",
-    "Villa": "../../images/fcb/david_villa.jpg",
-    "Puyol": "../../images/fcb/carles_puyol.jpg",
-    "Keita": "../../images/fcb/seydou_keita.jpg",
-    "Afellay": "../../images/fcb/ibrahim_afellay.jpg",
-    "Van der Sar": "../../images/man_utd/edwin_van_der_sar.jpg",
-    "Fábio": "../../images/man_utd/fabio.jpg",
-    "Ferdinand": "../../images/man_utd/rio_ferdinand.jpg",
-    "Vidić": "../../images/man_utd/nemanja_vidic.jpg",
-    "Evra": "../../images/man_utd/patrice_evra.jpg",
-    "Valencia": "../../images/man_utd/antonio_valencia.jpg",
-    "Carrick": "../../images/man_utd/michael_carrick.jpg",
-    "Giggs": "../../images/man_utd/ryan_giggs.jpg",
-    "Park": "../../images/man_utd/jisung_park.jpg",
-    "Rooney": "../../images/man_utd/wayne_rooney.jpg",
-    "Chicharito": "../../images/man_utd/chicharito.jpg",
-    "Scholes": "../../images/man_utd/paul_scholes.jpg",
-    "Nani": "../../images/man_utd/nani.jpg",
+    "Valdés": IMAGES_DIR / "fcb/victor_valdes.jpg",
+    "Dani Alves": IMAGES_DIR / "fcb/dani_alves.jpg",
+    "Piqué": IMAGES_DIR / "fcb/gerard_pique.jpg",
+    "Mascherano": IMAGES_DIR / "fcb/javier_mascherano.jpg",
+    "Abidal": IMAGES_DIR / "fcb/eric_abidal.jpg",
+    "Busquets": IMAGES_DIR / "fcb/sergio_busquets.jpg",
+    "Xavi": IMAGES_DIR / "fcb/xavi.jpg",
+    "Iniesta": IMAGES_DIR / "fcb/andres_iniesta.jpg",
+    "Pedro": IMAGES_DIR / "fcb/pedro.jpg",
+    "Messi": IMAGES_DIR / "fcb/lionel_messi.jpg",
+    "Villa": IMAGES_DIR / "fcb/david_villa.jpg",
+    "Puyol": IMAGES_DIR / "fcb/carles_puyol.jpg",
+    "Keita": IMAGES_DIR / "fcb/seydou_keita.jpg",
+    "Afellay": IMAGES_DIR / "fcb/ibrahim_afellay.jpg",
+    "Van der Sar": IMAGES_DIR / "man_utd/edwin_van_der_sar.jpg",
+    "Fábio": IMAGES_DIR / "man_utd/fabio.jpg",
+    "Ferdinand": IMAGES_DIR / "man_utd/rio_ferdinand.jpg",
+    "Vidić": IMAGES_DIR / "man_utd/nemanja_vidic.jpg",
+    "Evra": IMAGES_DIR / "man_utd/patrice_evra.jpg",
+    "Valencia": IMAGES_DIR / "man_utd/antonio_valencia.jpg",
+    "Carrick": IMAGES_DIR / "man_utd/michael_carrick.jpg",
+    "Giggs": IMAGES_DIR / "man_utd/ryan_giggs.jpg",
+    "Park": IMAGES_DIR / "man_utd/jisung_park.jpg",
+    "Rooney": IMAGES_DIR / "man_utd/wayne_rooney.jpg",
+    "Chicharito": IMAGES_DIR / "man_utd/chicharito.jpg",
+    "Scholes": IMAGES_DIR / "man_utd/paul_scholes.jpg",
+    "Nani": IMAGES_DIR / "man_utd/nani.jpg",
 }
 
 # Apply name mapping
@@ -325,7 +334,7 @@ def create_team_figure(team_name, edge_color, title_main, fig_name):
     plt.subplots_adjust(left=0.02, right=0.98, top=0.92, bottom=0.02)
     os.makedirs("../../results/figures/", exist_ok=True)
     plt.savefig(f"../../results/figures/{fig_name}", dpi=300, bbox_inches="tight")
-    plt.show()
+    #plt.show()
 
 
 if __name__ == "__main__":

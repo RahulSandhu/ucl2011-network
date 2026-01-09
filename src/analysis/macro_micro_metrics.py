@@ -6,7 +6,12 @@ import pandas as pd
 from matplotlib.offsetbox import AnnotationBbox, OffsetImage
 from PIL import Image, ImageDraw
 
-from network_construction import df, get_network_data
+from network_construction import df, get_network_data, player_images
+
+# To fix GUI backend problem
+import matplotlib
+matplotlib.use("Agg")
+
 
 # Get network data
 barca_nodes, barca_edges, barca_passes = get_network_data(df, "Barcelona")
@@ -250,4 +255,4 @@ plt.savefig(
     dpi=300,
     bbox_inches="tight",
 )
-plt.show()
+#plt.show()

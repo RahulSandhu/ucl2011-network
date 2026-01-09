@@ -9,17 +9,22 @@ import unicodedata
 import requests
 from bs4 import BeautifulSoup
 
+# To fix relative paths problem
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[2]
+IMAGES_DIR = ROOT / "images"
+
 # Configuration
 teams = [
     {
         "name": "FC Barcelona (2010-11)",
         "url": "https://www.transfermarkt.com/fc-barcelona/kader/verein/131/saison_id/2010",
-        "save_folder": "../../images/fcb",
+        "save_folder": IMAGES_DIR / "fcb",
     },
     {
         "name": "Manchester United (2010-11)",
         "url": "https://www.transfermarkt.com/manchester-united/kader/verein/985/saison_id/2010",
-        "save_folder": "../../images/man_utd",
+        "save_folder": IMAGES_DIR / "man_utd",
     },
 ]
 
@@ -50,8 +55,9 @@ def download_team_faces(team_config):
     url = team_config["url"]
     folder = team_config["save_folder"]
 
-    # Create folder if it doesn't exist
-    os.makedirs(folder, exist_ok=True)
+    # Create folder if it doesn't exist #CHANGED
+    folder.mkdir(parents=True, exist_ok=True)
+
 
     # Fetch and parse the team page
     response = requests.get(url, headers=headers)
@@ -78,7 +84,7 @@ def download_team_faces(team_config):
 
             # Clean filename and prepare path
             safe_name = clean_filename(raw_name)
-            filename = os.path.join(folder, f"{safe_name}.jpg")
+            filename = folder / f"{safe_name}.jpg"
 
             # Skip if already exists
             if os.path.exists(filename):
