@@ -46,7 +46,6 @@ def clean_filename(name):
 # Function to download team faces
 def download_team_faces(team_config):
     # Extract team details
-    name = team_config["name"]
     url = team_config["url"]
     folder = team_config["save_folder"]
 

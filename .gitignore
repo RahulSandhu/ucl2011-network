@@ -1,12 +1,10 @@
-# Environments and configuration
+# Environments
 .venv/
-config/
-
-# Jupyter notebooks checkpoints
-notebooks/.ipynb_checkpoints
 
 # Assets
 images/logos
+images/fcb
+images/man_utd
 
 # Presentation and report
 presentation/*

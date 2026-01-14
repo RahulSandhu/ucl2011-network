@@ -1,0 +1,3 @@
+team,avg_degree,max_degree,max_player,min_degree,min_player,avg_clustering_coefficient,assortativity,avg_shortest_path_length
+Barcelona,130.1818181818182,280,Xavi,35,Valdés,0.1696385801125029,-0.15131457373589466,0.16302040290519712
+Manchester United,46.54545454545455,71,Rooney,27,Chicharito,0.21535978882980508,-0.18446464429918463,0.36693722943722945
