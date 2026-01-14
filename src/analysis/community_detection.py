@@ -87,7 +87,7 @@ def detect_communities(G, method="louvain", seed=42):
             weight="weight",
         )
     elif method == "infomap":
-        # Use actual Infomap library
+        # Use Infomap
         im = Infomap(silent=True, two_level=True, seed=seed)
 
         # Map node labels to integers

@@ -114,7 +114,7 @@ def create_micro_plot(micro_df):
                 # Create circular image
                 circular_img = create_circular_image(img_path, size=80)
 
-                # Create imagebox once and reuse it
+                # Create imagebox
                 imagebox = OffsetImage(circular_img, zoom=0.35)
 
                 # Add jitter to positions

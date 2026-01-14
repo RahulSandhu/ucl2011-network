@@ -286,8 +286,13 @@ def plot_involvement_comparison(barca_stats, united_stats):
     fail_barca = [barca_stats[p]["fail"] for p in players_barca]
     x_pos = np.arange(len(players_barca))
 
+    # Customize bar plot
     ax1.bar(
-        x_pos, success_barca, label="Successful sequences", color="#28a745", alpha=0.8
+        x_pos,
+        success_barca,
+        label="Successful sequences",
+        color="#28a745",
+        alpha=0.8,
     )
     ax1.bar(
         x_pos,
@@ -312,8 +317,13 @@ def plot_involvement_comparison(barca_stats, united_stats):
     fail_united = [united_stats[p]["fail"] for p in players_united]
     x_pos = np.arange(len(players_united))
 
+    # Customize bar plot
     ax2.bar(
-        x_pos, success_united, label="Successful sequences", color="#28a745", alpha=0.8
+        x_pos,
+        success_united,
+        label="Successful sequences",
+        color="#28a745",
+        alpha=0.8,
     )
     ax2.bar(
         x_pos,
@@ -358,6 +368,7 @@ def plot_simulation_networks(teams_data):
         (teams_data[1] + (ax2,)),
     ]
 
+    # Plot each team's simulation network
     for (
         team_name,
         sim_df,
