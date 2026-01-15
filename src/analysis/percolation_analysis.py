@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from config import RESULTS_DIR
 
-from network_construction import get_network_data, load_data
+from analysis.network_construction import get_network_data, load_data
 
 
 # Analyze individual player impact

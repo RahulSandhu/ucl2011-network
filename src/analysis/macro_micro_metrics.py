@@ -8,7 +8,7 @@ from config import PLAYER_IMAGE_PATHS, RESULTS_DIR
 from matplotlib.offsetbox import AnnotationBbox, OffsetImage
 from utils.node_icons import create_circular_image
 
-from network_construction import (
+from analysis.network_construction import (
     build_directed_weighted_graph,
     get_network_data,
     load_data,
